@@ -2,6 +2,7 @@
 - name: install | Creating Kafka User
   user:
     createhome: false
+    group: nogroup
     name: kafka
     shell: /bin/false
     system: true
